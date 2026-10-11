@@ -1,0 +1,13 @@
+:root{--o:#ff8a00}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;background:#000;color:var(--o);font:17px/1.45 "BIZ UDGothic","Yu Gothic UI","Meiryo",sans-serif;overflow:hidden;cursor:none;user-select:none}
+.bar{position:fixed;left:0;right:0;bottom:0;height:52px;display:flex;background:#000;z-index:9}
+.k{flex:1;display:flex;flex-direction:column;min-width:0}
+.k.q{margin-left:46px}
+.kl{font-size:12px;text-align:center;height:16px}
+.kb{flex:1;border:1px solid var(--o);text-align:center;font-size:clamp(11px,1.6vw,20px);line-height:34px;white-space:nowrap;overflow:hidden}
+.kb.on{background:var(--o);color:#fff}
+.box{border:2px solid var(--o);background:#000}
+.it{border:2px solid transparent;padding:0 10px;display:flex;justify-content:space-between;gap:16px;line-height:21px}
+.it.on{border-color:var(--o)}
+input.in{background:#000;border:2px solid var(--o);color:var(--o);font:inherit;padding:4px 8px;outline:none;width:100%;cursor:text}

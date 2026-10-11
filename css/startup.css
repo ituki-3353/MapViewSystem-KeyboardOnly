@@ -1,0 +1,17 @@
+#app{position:fixed;inset:0 0 52px 0}
+.top{height:52px;font-size:22px;padding:12px 14px}
+.band{background:var(--o);color:#fff;text-align:center;font-size:24px;height:36px;line-height:36px}
+.pad{padding:8px 14px}
+.cols{display:flex;gap:16px;height:calc(100% - 100px)}
+.left{width:385px}
+.right{flex:1;margin:4px 20px 0 0;padding:10px 12px}
+.opt{margin:8px 0 8px 130px;display:flex;gap:16px;align-items:center}
+.opt .it{width:246px}
+.opt small{font-size:13px;max-width:300px}
+.splash{display:grid;place-items:center;text-align:center;height:calc(100% - 110px)}
+.logo{font-size:32px;letter-spacing:.35em;color:#fff;font-weight:300}
+.ring{width:76px;height:76px;border:7px solid #fff;border-top-color:transparent;border-radius:50%;animation:sp 1.2s linear infinite;margin:22px auto 0}
+.ring.thin{border-width:1px;margin:0;width:100px;height:100px}
+@keyframes sp{to{transform:rotate(360deg)}}
+.modan{display:flex;gap:40px;align-items:center;justify-content:center;height:calc(100% - 60px);color:#fff}
+.modan .vl{width:2px;height:360px;background:#fff}
